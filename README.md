@@ -47,6 +47,10 @@ e.g:
  
 ```
 // since we can't create object in liquid. So the workout I'm using is to split key/val pairs into two arrays, and will retrieve value based on the key's index. 
+    
+{% capture string %}    
+   fruit:apple,vegetable:carrot,cloth:t-shirt,denim:jeans    
+{% endcapture %}
 {% for json in string %}
   {% assign splitByComma = json | split: ',' %}
   {% for comma in splitByComma %}
