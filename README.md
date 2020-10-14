@@ -46,7 +46,7 @@ e.g:
 		○ denim:jeans
  
 ```
-// since we can't create object in liquid. So the workout I'm using is to split key/val pairs into two arrays, and will retrieve value based on the key's index. 
+// since we can't create object in liquid. So the workaround I'm using is to split key/val pairs into two arrays, and will retrieve value based on the key's index. 
     
 {% capture string %}    
    fruit:apple,vegetable:carrot,cloth:t-shirt,denim:jeans    
